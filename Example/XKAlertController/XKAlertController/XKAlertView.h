@@ -1,0 +1,29 @@
+//
+//  XKAlertView.h
+//  XKAlertController
+//
+//  Created by Allen、 LAS on 2018/5/9.
+//  Copyright © 2018年 重楼. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface XKAlertView : UIAlertView<UIAlertViewDelegate>
+
+/**
+ *  iOS8.0之前系统弹窗样式
+ *
+ *  @param title 标题
+ *  @param msg  提示信息
+ *  @param cancelButtonTitle  取消按钮
+ *  @param otherButtonTitles  按钮名称数组
+ *  @param handlerBlock  点击事件响应
+ *
+ */
+- (instancetype)initWithTitle:(NSString *)title
+                          msg:(NSString*)msg
+                       cancelButtonTitle:(NSString *)cancelButtonTitle
+                       otherButtonTitles:(NSArray<NSString*>*)otherButtonTitles
+                            handlerBlock:(void(^)(NSInteger index))handlerBlock;
+
+@end
