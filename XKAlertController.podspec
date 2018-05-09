@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XKAlertController"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "系统UIActionSheet、UIAlertView、UIAlertController方法使用封装."
   s.homepage     = "https://github.com/RyanMans/XKAlertController"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/RyanMans/XKAlertController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'XKAlertController/Classes/**/*'
+ s.source_files = 'XKAlertController/Classes/**/*'
 
 end

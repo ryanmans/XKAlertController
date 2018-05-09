@@ -14,7 +14,6 @@
  *  iOS8.0之前系统弹窗样式
  *
  *  @param title 标题
- *  @param msg  提示信息
  *  @param cancelButtonTitle  取消按钮
  *  @param otherButtonTitles  按钮名称数组
  *  @param handlerBlock  点击事件响应
